@@ -28,9 +28,9 @@ def execute_command(hostname, username, password, command, command2):
         client.close()
 
 # Provide the details of the remote Linux client
-hostname = '10.198.197.20'
-username = 'root'
-password = 'abc123'
+hostname = 'hostname'
+username = 'username'
+password = 'password'
 command1 = 'cd Jenkins && ls' #rm -rf *'  # Replace with the command you want to execute
 command2 = 'ls'
 # Call the function to execute the command on the remote Linux client
